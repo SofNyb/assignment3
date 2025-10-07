@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Console App",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Assignment3/bin/Debug/net8.0/Assignment3.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Assignment3",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
